@@ -1,0 +1,24 @@
+.wrapper {
+    margin-left: -13%;
+    width: 130px;
+}
+
+.select {
+    background: var(--orange);
+    color: var(--blue);
+    font-size: medium;
+    border: none;
+    padding: 4%;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .wrapper {
+        margin-left: 5%;
+    }
+
+
+}

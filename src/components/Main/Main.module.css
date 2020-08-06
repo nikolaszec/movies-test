@@ -1,0 +1,12 @@
+.backToTopBtn {
+    cursor: pointer;
+    position: fixed;
+    font-size: 60px;
+    font-weight: bold;
+    bottom: 40px;
+    right: 40px;
+    background: transparent;
+    border: none;
+    color: var(--orange);
+    transform: rotate(-90deg);
+}

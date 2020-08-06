@@ -1,0 +1,30 @@
+.movie {
+    width: 250px;
+    height: 360px;
+    background-size: 100% 100%;
+    margin: 2%;
+    position: relative;
+    border-radius: 4.5%;
+    box-shadow: 1px 1px 8px 0px rgba(17, 15, 15, 0.822);
+    background-color: black;
+
+
+}
+
+.movie:hover {
+    cursor: pointer;
+    transform: translateY(-20px);
+    transition: transform .5s;
+}
+
+.movieDetails {
+    padding-top: 2%;
+    text-align: center;
+    color: var(--orange);
+    background-color: #020822e8;
+    width: 100%;
+    min-height: 70px;
+    position: absolute;
+    bottom: 0px;
+    opacity: 1;
+}
